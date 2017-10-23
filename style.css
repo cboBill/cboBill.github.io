@@ -14,19 +14,21 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: auto;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 25px;
     width: 100vw;
     height: 100vh;
-    background-image: url('lundeborg.jpg') no-repeat;
+    background: url('lundeborg.jpg') no-repeat center;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
